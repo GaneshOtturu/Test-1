@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            width: 200px;
+            background-color: powderblue;
+            margin: 0;
+            padding: 0;
+        }
+        li a{
+            display: block;
+            color: blue;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a.active{
+            background-color: orange;
+            color: white;
+        }
+        li a:hover:not(.active){
+            background-color: grey;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="https://www.google.com/" target="_blank">Home</a></li>
+        <li><a href="https://www.java.com/en/" target="_blank">Java</a></li>
+        <li><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+        <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Bootstrap</a></li>
+    </ul> 
+</body>
+</html>

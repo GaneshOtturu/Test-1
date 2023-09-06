@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizaontal Navigation Bar</title>
+    <style>
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+li a.active {
+  background-color: #111;
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="https://www.google.com/" target="_blank">Home</a></li>
+        <li><a href="https://www.java.com/en/" target="_blank">Java</a></li>
+        <li><a href="https://www.w3schools.com/css/" target="_blank">CSS</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML</a></li>
+        <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank">Bootstrap</a></li>
+    </ul>
+</body>
+</html>
